@@ -63,11 +63,13 @@ form {
 }
 
 .search-input input {
-	width: 100%;
+	width: 84%;
 	height: var(--input-height);
 	border-radius: calc(var(--input-height));
 	border: 1px solid #dfe1e5;
 	font-size: 16px;
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
 .search-input input:focus,
